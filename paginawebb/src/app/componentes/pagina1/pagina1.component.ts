@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class Pagina1Component implements OnInit {
 
-  constructor() { }
+  constructor(private nav: Router) { }
 
   ngOnInit(): void {
   }
@@ -16,6 +16,12 @@ export class Pagina1Component implements OnInit {
 
     const email =form.value.email
     const password =form.value.password
+  }
+  login2(){
+    this.nav.navigate(['login2'])
+  }
+  compras(){
+    this.nav.navigate(['compras'])
   }
  
 }

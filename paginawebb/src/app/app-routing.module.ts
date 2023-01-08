@@ -11,7 +11,7 @@ const routes: Routes = [
     path:'', component:Pagina1Component
   },
   {
-    path:'Nologin',component:Pagina2Component
+    path:'login2',component:Pagina2Component
   },
   {
     path:'compras',component:Pagina3Component
