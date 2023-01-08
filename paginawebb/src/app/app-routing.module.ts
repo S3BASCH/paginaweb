@@ -11,16 +11,16 @@ const routes: Routes = [
     path:'', component:Pagina1Component
   },
   {
-    path:'Pagina 2',component:Pagina2Component
+    path:'Nologin',component:Pagina2Component
   },
   {
-    path:'Pagina 3',component:Pagina3Component
+    path:'compras',component:Pagina3Component
   },
   {
-    path:'Pagina 4',component:Pagina4Component
+    path:'carrito',component:Pagina4Component
   },
   {
-    path:'Pagina 5',component:Pagina5Component
+    path:'factura',component:Pagina5Component
   }
 
 
