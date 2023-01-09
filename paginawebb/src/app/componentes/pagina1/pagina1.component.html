@@ -1,44 +1,33 @@
-<div>
-
-  <head>
-    <meta charset="utf-8">
-
-    <style>
-      body{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<link rel="stylesheet" href="pagina1.component.css" type="text/css">
+</head>
+<body>
+  <div class="contenedor">
+      <div class="contenedor">
+      <div align="center" class="login">
         
-      }
-      .contenedor{
-        background-color:rgb(130, 159, 238);
-        height: 75vh;
-        margin: 25%;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    </style>
-
-  </head>
-  <body>
-    <div class="contenedor">
-    <div align="center">
-      <h1>L O G I N</h1>
-      <form>
-        <label>Por Favor, ingresa tu correo y contrasena</label>
-        <br>
-        <br>
-        <input type="email" name ="email" placeholder="Username">
-        <br>
-        <br>
-        <input type="password" name ="password" placeholder="Password">
-        <br>
-        <br>
-        <input type="submit" value="LogIn" (click)="compras()">
-        <br>
-      </form>
-    </div>
-  </div> 
-  </body>
-
-</div>
+        <h1>L O G I N</h1>
+        <form>
+          <label>Por Favor, ingresa tu correo y contrasena</label>
+          <br>
+          <br>
+          <input type="email" name ="email" placeholder="Username">
+          <br>
+          <br>
+          <input type="password" name ="password" placeholder="Password">
+          <br>
+          <br>
+          <input type="submit" value="LogIn" (click)="compras()" class="boton">
+          <br>
+        </form>
+      </div>
+    </div> 
+  </div>
+</body>
+</html>
