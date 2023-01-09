@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-pagina3',
   templateUrl: './pagina3.component.html',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Pagina3Component implements OnInit {
 
-  constructor() { }
+  constructor(private nav: Router) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
+  login2(form:NgForm){
 
+    const email =form.value.email
+    const password =form.value.password
+  }
+  login1(){
+    this.nav.navigate([''])
+  }
+  compras(){
+    this.nav.navigate(['compras'])
+  }
 }

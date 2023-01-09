@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="pagina1.component.css" type="text/css">
 </head>
 <body>
+  <section class="form-login"
   <div class="contenedor">
       <div class="contenedor">
       <div align="center" class="login">
@@ -17,13 +18,14 @@
           <label>Por Favor, ingresa tu correo y contrasena</label>
           <br>
           <br>
-          <input type="email" name ="email" placeholder="Username">
+          <input class="controls" type="email" name ="email" placeholder="Username">
           <br>
           <br>
-          <input type="password" name ="password" placeholder="Password">
+          <input class="controls" type="password" name ="password" placeholder="Password">
           <br>
           <br>
           <input type="submit" value="LogIn" (click)="compras()" class="boton">
+          <input type="submit" value="No_LogIn" (click)="login2()" class="boton">
           <br>
         </form>
       </div>

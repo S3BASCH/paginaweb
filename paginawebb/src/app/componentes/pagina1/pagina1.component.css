@@ -1,16 +1,18 @@
-*{ background-image:url("C:\Users\usuario\OneDrive\Imágenes\imagenfondooooo.png");}
+*{ background-image:url("C:\Users\PC_15-LAB_07\Downloads\fondo.jpg");}
 
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
     
   }
   .contenedor{
     height: 100vh;
     margin: 0%;
 
+
     display: flex;
     align-items: center;
-
+  
 
   }
   .login{
